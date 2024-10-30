@@ -1,0 +1,77 @@
+#extable_file_metabox .ext_fileinfo{
+	margin-top: 10px;
+}
+
+#extable_file_metabox .ext_fileinfo .ext_fileinfo_cont.brd{
+	border: 1px solid #ccc;
+	padding: 10px 15px;
+}
+
+#extable_file_metabox .ext_fileinfo .ext_fileinfo_cont{
+	position: relative;
+}
+
+#extable_file_metabox .ext_fileinfo .ext_fileinfo_cont p{
+	margin: 0 0 3px;
+	font-size: 16px;
+}
+
+#extable_file_metabox .ext_fileinfo .ext_fileinfo_cont .ext_fileclose{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: red;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#extable_file_metabox .ext_fileinfo .ext_fileinfo_cont .ext_fileclose:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+#extable_file_metabox .ext-csv-separator p{
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 15px;
+}
+
+#extable_file_metabox .ext-csv-separator input{
+	display: inline-block;
+}
+
+#extable_file_metabox .ext-shortcode-txt{
+	font-size: 16px;
+}
+
+#extable_file_metabox .ext-shortcode-txt input{
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+/*Preview*/
+
+#extable_prev_metabox .ext-preview{
+	margin: 20px 0;
+	overflow-x: auto;
+}
+
+#extable_prev_metabox table{
+	max-width: 100%;
+}
+
+#extable_prev_metabox table, 
+#extable_prev_metabox th,
+#extable_prev_metabox td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#extable_prev_metabox td,
+#extable_prev_metabox th{
+	padding: 5px 10px;
+}
+
+#extable_prev_metabox tr:nth-child(even){
+	background-color: #f2f2f2;
+}
